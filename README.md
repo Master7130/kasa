@@ -55,10 +55,10 @@ This will run it in the background and continue executing even after disconnecti
 First, check for the process ID (PID) of the background program:
 
 ```
-ps aux | grep python
+ps aux | grep "python main.py"
 ```
 
-This will list all running python processes. Find the PID of the target process.
+This will list all running background processes with the text "python main.py". Find the PID of the target process.
 
 Then kill it by PID:
 
