@@ -22,7 +22,7 @@ def check_battery(lower_lim, upper_lim):
     elif level <= lower_lim:
         return "O"
     else:
-        return "X"
+        return "-"
 
 
 async def find_plug(alias):
