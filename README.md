@@ -45,7 +45,7 @@ The program runs continuously monitoring the battery. Press Ctrl+C to exit.
 To run the program in the background:
 
 ```
-nohup python main.py -p mac_plug &
+nohup python main.py -p mac_plug
 ```
 
 This will run it in the background and continue executing even after disconnecting from the terminal session it was started on.
